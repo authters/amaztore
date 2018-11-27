@@ -10,8 +10,15 @@
     }
   ],
   "require": {
-    "php": "^7.2"
+    "php": "^7.2",
+    "authters/security": "dev-master"
   },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/authters/security"
+    }
+  ],
   "require-dev": {
     "laravel/framework": "^5.7",
     "mockery/mockery": "^1.0",
